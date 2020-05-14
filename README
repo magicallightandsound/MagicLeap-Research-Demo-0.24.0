@@ -1,0 +1,45 @@
+Demo Source Package
+
+Research and development, with the Magic Leap v0.24.1 SDK
+
+What you get:
+
+a) controller picker/manipulator
+b) a cube that you can pick by pointing at it and pulling the trigger down, move to clone it and release the trigger drop the cloned cube.
+c) a "trash can" cylinder where you can move and drop the cloned cubes onto, to "delete them".  
+d) 'World Mesh Builder', a room mapper that will place rotating cubes around the room. Touch those rotating cubes with the controller to make them disappear.
+
+Required:
+
+Unity 2019.3.4f1 (Install via the Unity Hub)
+Magic Leap SDK v0.24.0 or higher
+Lumin OS 0.98.10 or higher
+
+To use:
+
+1) You should have a working version of The Lab and have installed the necessary Packages using the Package Manager
+2) git clone the Unity-Template-0.24.0 located at https://github.com/magicleap/UnityTemplate.git  (Latest commit 9eb927c on Dec 19, 2019)
+3) Open the Unity Project in Unity 2019.3.4f1  (You may have to use the Unity Hub to install the older Unity Editor v2019.3.4f1)
+4) When asked to upgrade to use the latest Asset Database v2.0, click on YES
+5) It may take a few minutes for Unity3D to import/open the Project
+6) Go to File -> Build Settings and choose Lumin as the Platform and click on the Switch Platform button
+7) It may take a few minutes for Unity3D to switch to the Lumin Platform
+8) Leave the Built Settings Window open
+9) In the Project Window, right click on Assets then -> Import Package, then click on Custom Package, then click opn Demo.unitypackage and click on the Open button
+10) When asked to choose what to import, click on the All button, then click on the Import button
+11) It may take a few minutes to import the Demo.unitypackage
+12) If you look at the Project Windows, and look at the Assets folder, you will see new folders "Demo-MLS" and "Resources"
+13) Click to open the Demo-MLS folder, then click to open the Scenes folder
+14) Double click on the "Game World Mesh Builder" scene, to load it
+15)  In the Build Settings Folder, click on the Player Settings button
+16)  In the Player, go to Publisher Settings and enter the path to your Magic Leap dev certificate, then close the Project Settings window
+17) In the Build Settings Folder, click the Build button to build the mpk file
+
+Rodney Degracia
+rodney@magicallightandsound.com
+
+
+
+
+
+
